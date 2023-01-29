@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>contacto-glamping la milagrosa</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <a href="index.html"><h1><img src="/imagenes/logo.png" class="logo" alt="logo finca"></h1></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> inicio </a></li>
+                    <li><a href="servicios.html"> servicios </a></li>
+                    <li><a href="contacto.html"> contacto </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <form action="">
+            
+            <label for="nombrecompleto">Nombres y apellido</label>
+            <input type="text" id="nombrecompleto" class="patron" required>
+            
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo"class="patron" required placeholder="joerobado@plata.com">
+            
+            <label for="telefono">telefono</label>
+            <input type="tel" id="telefono"class="patron" required placeholder="xxxxxnxxx">
+            
+            <label for="mensaje">Mensaje</label>
+            
+            <textarea id="mensaje" cols="70" rows="10"class="patron" required></textarea>
+            
+            <fieldset>
+                <legend>¿Como le gustaria que lo contactemos?</legend>
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" id="radio-telefono">Telefono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" id="radio-whatsapp" checked>whatsapp</label>
+                
+            </fieldset>
+            <div>
+                <p>¿En que horario desea ser recogido?</p>
+                <select name="" id="">
+                <option value="">mañana</option>
+                <option value="">tarde</option>
+                <option value="">noche</option>
+
+            </select>
+
+            </div>
+            
+            <label class="check"><input type="checkbox" checked>Le gustaria recibir novedades?</label>
+
+            <input type="submit" value="enviar información" class="enviar">
+
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Diás</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>entre semana <br>l-m-x-j-v</td>
+                    <td>3 p.m.</td>
+                </tr>
+                <tr>
+                    <td>fines de semana <br>s-d</td>
+                    <td>5 p.m.</td>
+                </tr>
+            </tbody>
+        </table>
+
+   
+   
+    </main>
+    <footer>
+        <img class="imgfooter" src="imagenes/logo.png" alt="logo finca">
+        <p>&copy Copiright glamping la milagrosa - 2023</p>
+    </footer>
+</body>
+</html>   

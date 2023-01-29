@@ -1,0 +1,40 @@
+p{
+    font-size: 40px;
+    text-align: justify;
+    color: rgb(241, 241, 241);
+}
+#mision{
+    font-size: 25px;
+}
+
+
+
+#cama{
+    border-radius: 25%;
+    width: 100%;
+}
+.item{
+    font-size: 30px;
+}
+.caracteristicas{
+    background-color: aqua;
+    padding: 24px;
+}
+h3{
+    color: beige;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.principal{
+    background-color: blue;
+    padding: 20%;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%;
+}   
+.jacuzzi{
+    width: 50%;
+}
